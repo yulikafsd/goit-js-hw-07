@@ -1,2 +1,7 @@
-# goit-js-hw-07
-Modue 6. JS
+#goit-js-hw-07
+
+GoIT Модуль7. JS
+
+<!--
+
+-->
