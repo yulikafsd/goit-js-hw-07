@@ -11,8 +11,6 @@ function onClickShowModal(event) {
   if (event.target.nodeName !== 'IMG') {
     return;
   }
-
-  const gallery = new SimpleLightbox('ul.gallery a');
   galleryEl.removeEventListener('click', onClickShowModal);
   gallery.on('show.simplelightbox', function () {
     gallery.options.captionDelay = 250;
@@ -29,3 +27,4 @@ function makeGallery(arr) {
 }
 
 makeGallery(galleryItems);
+const gallery = new SimpleLightbox('ul.gallery a');
