@@ -1,0 +1,27 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 0;
+}
+
+.login-form input {
+    margin-top: 8px;
+}
+
+.login-form {
+    button {
+        margin-top: 8px;
+        width: 86px;
+        background-color: #4e75ff;
+
+        &:hover, 
+        &:focus {
+        background-color: #6c8cff;
+        }
+    }
+}
