@@ -14,12 +14,13 @@ refs.formElem.addEventListener('submit', e => {
 
     const formDataValues = Object.values(formData);
 
+    e.submitter.blur();
+
     if (formDataValues.includes('')) {
         alert('All form fields must be filled in');
         return;
     }
 
-    e.submitter.blur();
     console.log(formData);
     refs.formElem.reset();
 });
