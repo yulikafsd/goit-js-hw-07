@@ -8,8 +8,8 @@ const refs = {
 refs.inputElem.addEventListener('input', () => {
     const inputValue = refs.inputElem.value.trim();
     if (inputValue) {
-        refs.outputElem.innerHTML = inputValue;
+        refs.outputElem.textContent = inputValue;
     } else {
-        refs.outputElem.innerHTML = 'Anonymous';
+        refs.outputElem.textContent = 'Anonymous';
     }
 });
