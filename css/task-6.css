@@ -1,0 +1,40 @@
+#controls { 
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+
+    border-radius: 8px;
+    background-color: #f6f6fe;;
+
+    input {
+        max-width: 150px;
+        height: 40px;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    button {
+        width: 120px;
+
+        &[data-create] {
+        background-color: #4e75ff;
+
+            &:hover, 
+            &:focus {
+            background-color: #6c8cff;
+            }
+        }
+
+        &[data-destroy] {
+            background-color: #ff4e4e;
+
+            &:hover, 
+            &:focus {
+            background-color: #ff7070;
+            }
+        }
+    }
+}
