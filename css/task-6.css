@@ -3,7 +3,9 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+    max-width: 486px;
 
+    margin: 0 auto;
     padding: 32px;
 
     border-radius: 8px;
@@ -37,4 +39,18 @@
             }
         }
     }
+}
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 44px;
+    max-width: 486px;
+
+    margin: 0 auto;
+    padding: 32px 28px;
+
+    border-radius: 8px;
+    background-color: #f6f6fe;;
 }
